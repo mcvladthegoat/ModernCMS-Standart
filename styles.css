@@ -1,0 +1,75 @@
+body{
+	font: 15px Segoe UI;
+	color:white;
+	background-image:url(images/background.jpg);
+	background-size:repeat-x;
+}
+#statustop{
+	padding:0;
+	margin:26px;
+	position: absolute;
+	max-width: 400px;
+	background-color: #CCCCFF;
+	color: #71653a;
+	border: 1px solid #71653a;
+    border-radius: 6px;
+    padding: 8px;
+	margin-top: 5px;
+}
+.widget{
+	padding:0;
+	margin:20px;
+	position: absolute;
+	max-width: 400px;
+	background-color: #CCFFCC;
+	color: #71653a;
+	border: 1px solid #71653a;
+	border-radius: 6px;
+	padding: 8px;
+	margin-top: 0;
+	margin-left: 280px;
+}
+.menu img{
+	margin:26px;
+	border: none
+}
+.menu a: hover img{
+	margin:26px;
+}
+a{
+	color: white;
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+	color:white;
+	border:0;
+}
+.header{
+	font:25pt Segoe UI, Arial;
+	padding-left: 26px;
+}
+h3{
+	margin-left:26px;
+	text-decoration:underline;
+}
+#lefttab{
+	float: left; 
+	width:25%;
+	margin-left:26px;}
+#righttab{
+	margin-left:25%;
+	border:1px solid;
+	border-radius:5px;
+	background-image: url("images/panel2.jpg");
+	color: black;
+}
+#createcategory{
+	position: absolute;
+	max-width: 400px;
+	background-color: #CCCCFF;
+	color: #71653a;
+	border: 1px solid #71653a;
+    border-radius: 10px;
+    padding: 20px;
+}
